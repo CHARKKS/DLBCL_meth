@@ -8,3 +8,8 @@ awk '$5 < 0.3 { print $1,$2,$3,$4,$5,$6 }' RL_methylsort.txt > RL03.txt
 ## KARPAS-422_methyl.txt
 ## Retrieve lines that have beta values less than 0.3
 awk '$5 < 0.3 { print $1,$2,$3,$4,$5,$6 }' KARPAS-422_methyl.txt > KARPAS03.txt
+
+
+##SUDHLfull.txt
+## Retrieve lines that have beta values less than 0.3
+awk '$2 < 0.3 { print $1,$2,$3 }' SUDHL.txt > SUDHL603.txt
